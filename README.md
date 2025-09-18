@@ -20,3 +20,21 @@ The system predicts whether a patient is affected by Parkinson's disease based o
 
 ## Folder Structure
 
+Parkinsons Detector/
+├── Parkinsons_Detector.ipynb
+├── parkinsons_xgb_model.json
+├── scaler.pkl
+├── parkinsons.data
+└── README.md
+
+
+## Notes
+
+- Model and scaler are Colab-ready and lightweight; no training required.  
+- Dataset is optional for testing; the model can predict using new patient data.  
+- Python 3.x and required libraries: `xgboost`, `pandas`, `numpy`, `scikit-learn`, `joblib`  
+
+---
+
+This repository is ideal for anyone who wants a **ready-to-use Parkinson's disease detection system** for research or educational purposes.
+
